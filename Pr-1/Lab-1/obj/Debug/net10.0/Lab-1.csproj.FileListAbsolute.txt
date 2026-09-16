@@ -1,0 +1,15 @@
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/obj/Debug/net10.0/Lab-1.GeneratedMSBuildEditorConfig.editorconfig
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/obj/Debug/net10.0/Lab-1.AssemblyInfoInputs.cache
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/obj/Debug/net10.0/Lab-1.AssemblyInfo.cs
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/obj/Debug/net10.0/Lab-1.csproj.CoreCompileInputs.cache
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/obj/Debug/net10.0/Lab-1.sourcelink.json
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/bin/Debug/net10.0/Lab-1
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/bin/Debug/net10.0/Lab-1.deps.json
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/bin/Debug/net10.0/Lab-1.runtimeconfig.json
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/bin/Debug/net10.0/Lab-1.dll
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/bin/Debug/net10.0/Lab-1.pdb
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/obj/Debug/net10.0/Lab-1.dll
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/obj/Debug/net10.0/refint/Lab-1.dll
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/obj/Debug/net10.0/Lab-1.pdb
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/obj/Debug/net10.0/Lab-1.genruntimeconfig.cache
+/home/kaza/OOPCsharp2026/Pr-1/Lab-1/obj/Debug/net10.0/ref/Lab-1.dll
