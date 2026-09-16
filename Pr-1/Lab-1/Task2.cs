@@ -3,7 +3,7 @@ namespace Lab_1;
 internal class Calculations{
 	
 	public void Run(double a, double b, double c){
-		Console.WriteLine($"\nПериметр = {Perimeter(a,b,c)}\nПлоща = {Square(a,b,c)}\n Тип трикутника: {Type(a,b,c)}");
+		Console.WriteLine($"\nПериметр = {Perimeter(a,b,c)}\nПлоща = {Square(a,b,c)}\nТип трикутника: {Type(a,b,c)}");
 	}
 
 	double Perimeter(double a, double b, double c){
@@ -26,25 +26,37 @@ internal class Calculations{
 	}
 
 	bool IsRectengular(double a, double b, double c){
+		double hyp = GetHyp(a,b,c);
+		double[] legs = GetLegs(a,b,c);
+		if(legs[0]*legs[0] + legs[1]*legs[1] == hyp*hyp) return true;
+		else return false;
+	}
+
+	double GetHyp(double a, double b, double c){
 		double[] sides = new double[3] {a,b,c};
-		double max = a; // Гіпотенуза
-		double k1,k2;// Катети
+		double max = a;
 		for(int i = 0; i < 3; i ++){
 			if(sides[i] > max) max = sides[i];
 		}
+		return max;
+	}
+	
+	double[] GetLegs(double a, double b, double c){
+		double[] legs = new double[2];
+
+		double max = GetHyp(a,b,c);
 		if (max == a){
-			k1 = b;
-			k2 = c;
+			legs[0] = b;
+			legs[1] = c;
 		}
 		else if (max == b){
-			k1 = a;
-			k2 = c;
+			legs[0] = a;
+			legs[1] = c;
 		}
 		else{
-			k1 = a;
-			k2 = b;
+			legs[0] = a;
+			legs[1] = b;
 		}
-		if(k1*k1 + k2*k2 == max*max) return true;
-		else return false;
+		return legs;
 	}
 }

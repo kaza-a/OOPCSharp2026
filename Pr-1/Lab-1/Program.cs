@@ -3,9 +3,9 @@
 class Program{
 	
   static void Main(){
-		double a = 3;
-		double b = 3;
-		double c = 3;
+		double a = 4;
+		double b = 11;
+		double c = 8;
 
 		Check task1 = new Check();
 		Calculations task2 = new Calculations();
